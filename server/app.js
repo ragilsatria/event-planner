@@ -6,7 +6,3 @@ const routers = require(`./routers`);
 
 app.use(express.urlencoded({ extended: true }));
 app.use(routers);
-
-app.listen(PORT, () => {
-    console.log(`app listening on ${PORT}`);
-});
